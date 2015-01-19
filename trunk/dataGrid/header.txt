@@ -1,0 +1,7 @@
+[
+{"model":"id","header":"#","sort":null,"filter":[]},
+{"model":"type","header":"Request Type","sort":null,"filter":[]},
+{"model":"status","header":"Status","sort":null,"filter":[]},
+{"model":"comment","header":"Comment","sort":null,"filter":[]},
+{"model":"timeStamp","header":"Submitted On","sort":null,"filter":[]}
+]
