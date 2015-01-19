@@ -28,11 +28,12 @@
 				   <span class="glyphicon glyphicon-sort-by-alphabet-alt" ng-if="col.sort=='-'" style="float:right"></span>
 				</a>	
 				<ul class="dropdown-menu">
-				  <li data-ng-click="col.sort='+'"><a href>Sort <span class="glyphicon glyphicon-sort-by-alphabet" style="float:right"></span></a></li>
-				  <li data-ng-click="col.sort='-'"><a href>Sort <span class="glyphicon glyphicon-sort-by-alphabet-alt" style="float:right"></span></a></li>      
-				  <li data-ng-click="col.sort=null"><a href>Clear Sort</a></li>
+				  <li data-ng-click="setSort($index,'+')"><a href>Sort Ascending <span class="glyphicon glyphicon-sort-by-alphabet" style="float:right"></span></a></li>
+				  <li data-ng-click="setSort($index,'-')"><a href>Sort Descending <span class="glyphicon glyphicon-sort-by-alphabet-alt" style="float:right"></span></a></li>      
+				  <li data-ng-click="setSort($index,null)"><a href>Clear Sort</a></li>
 				</ul>
 			  </li>
+			  
 			</ul>		  
 		  </th>		  
 		</tr>
